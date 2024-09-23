@@ -27,6 +27,9 @@ img {
 .flex-col {
   flex-direction: column;
 }
+.gap-100{
+    gap: 330px;
+}
 .gap-40 {
   gap: 40px;
 }
@@ -147,7 +150,15 @@ ul {
 .flex-wrap {
   flex-wrap: wrap;
 }
+.w-359{
+  width: 359px;
+  height: 394px;
+}
 
 .w-500 {
   width: 486px;
+}
+.w-1200{
+  width: 1200px;
+  height: 347px;
 }

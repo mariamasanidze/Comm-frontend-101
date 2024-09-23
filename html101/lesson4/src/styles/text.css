@@ -16,6 +16,7 @@
 }
 .pL {
   font-size: 18px;
+  margin-bottom: 40px;
 }
 .font-bold {
   font-weight: bold;
@@ -31,6 +32,13 @@
   border-radius: 8px;
   width: fit-content;
 }
+.text_box, .pL, .btn_primary {
+  display: block; 
+  margin-bottom: 40px; 
+}
 .text-white {
   color: white;
+}
+.text-green{
+  color: #b9ff66;
 }
