@@ -18,3 +18,23 @@
   border-radius: 14px;
   font-family: "Space Grotesk";
 }
+.icon{
+  width: 40px;
+  height: 40px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon span{
+  font-size: 24px;
+  font-weight: bold;
+  color:#000;
+}
+.span{
+  background-color: #000;
+  color: #b9ff66;
+  font-weight: bold;
+  
+}
