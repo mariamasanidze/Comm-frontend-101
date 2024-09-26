@@ -51,3 +51,21 @@
   color: black;
 }
 
+.prs-info{
+  width: 450px;
+  height: 50px;
+  margin-top: 10px;
+  border-color:black;
+  border-radius: 14px;
+}
+.message{
+  width: 450px;
+  height: 200px;
+  margin-top: 10px;
+  border-color:black;
+  border-radius: 14px;
+}
+.illustration{
+  width: 680px;
+  height: 650px;
+}
