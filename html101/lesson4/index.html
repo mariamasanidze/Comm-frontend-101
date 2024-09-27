@@ -11,7 +11,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="container mt-60">
+    <header class="fixed">
       <nav>
         <div class="flex justify-between align-center">
           <div>
@@ -184,11 +184,11 @@
           </div>
         </div>
 
-        <div class="bg-gray p-50 border border-rounded box-shadow w-1200">
+        <div class="bg-gray p-50 border border-rounded box-shadow w-1200 mt-40">
           <div class="flex justify-between align-center">
             <div>
-              <div >
-                <h3 class="text_box grey hM">Let's make things happen</h3>
+              <div  class="text_box">
+                <h3 class=" grey hM mb-30">Let's make things happen</h3>
                    <p class="pL font-light">
                           Contact us today to learn more about how our digital
                           <br />
@@ -205,9 +205,9 @@
             </div>
           </div>
         </div>
-      </div>
+      
 
-      <div class="flex gap-40 align-center mt-140 mb-30">
+      <div class="flex gap-40 align-center mt-40 mb-10">
         <h2 class="hL text_box font-semibold green">Case studies</h2>
         <p class="pL font-light">
           Explore Real-Life Examples of Our Proven Digital Marketing
@@ -492,9 +492,13 @@
       <!-- new section -->
        <section class="container">
 
-        <div class="bg-gray p-50 border border-rounded box-shadow w-1100"> 
-          <div>
-          <div class="flex gap-15">
+        <!-- <div class="bg-gray p-50 border flex border-rounded box-shadow w-1100"> 
+
+          <div class="illustration">
+            <img src="./src/img/Illustration.png" alt="">
+          </div>
+          <div class="form-container">
+          <div >
           <input type="radio">
           <label for="text">Say Hi</label>
         
@@ -521,10 +525,48 @@
 
   <button class="btn-last mt-20">Send Message</button>
       </div>
-    </div>
-  </div>
- 
-
-       </section>
+    </div> -->
+  
+    <div class="bg-gray p-50 border border-rounded box-shadow w-1100">
+      <div class="flex justify-between align-center ">
+        <div>
+          <div>
+            <div  class="text_box ">
+              <input type="radio">
+              <label for="text">Say Hi</label>
+            
+            
+             <input type="radio" >
+              <label for="text">Get a quote</label>
+            
+          <div class="mt-20">
+              <label for="name">Name</label>
+            </div>
+              <input class="prs-info" type="text" name="Name" placeholder="Name">
+            
+            <div class="mt-20">
+              <label for="Email">Email*</label>
+            </div>
+              <input class="prs-info" type="email" name="Email" placeholder="Email" required>
+            
+            <div class="mt-20">
+              <label for="Message">Message*</label>
+           </div>
+           <div>
+            <input class="message" type="text">
+          </div>
+    
+      <button class="btn-last mt-20">Send Message</button>
+          </div>
+        </div>
+          </div>
+          <div>
+            <img src="./src/img/Illustration.png" class="illustration" alt="seo" />
+          </div>
+        </div>
+      </div>
+     
+        
+ </section>
   </body>
 </html>

@@ -31,6 +31,7 @@
   padding: 6px;
   border-radius: 8px;
   width: fit-content;
+  /* margin-left: 30px; */
 }
 .text_box, .pL, .btn_primary {
   display: block; 
@@ -65,7 +66,5 @@
   border-color:black;
   border-radius: 14px;
 }
-.illustration{
-  width: 680px;
-  height: 650px;
-}
+
+
