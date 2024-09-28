@@ -15,7 +15,7 @@
       <nav>
         <div class="flex justify-between align-center">
           <div>
-            <img src="./src/img/logo.svg" alt="logo" />
+            <img src="./src/img/logo.svg" class="flogo" alt="logo" />
           </div>
           <div class="flex align-center gap-40">
             <ul class="flex gap-40">
@@ -42,7 +42,9 @@
             online through a range of services including SEO, PPC, social media
             marketing, and content creation.
           </p>
-          <button class="btn_primary w-50">Book a consultation</button>
+          <button class="btn_primary w-50 ">
+            <h5 class="text">Book a consultation</h5>
+          </button>
         </div>
         <div class="w-40">
           <img src="./src/img/banner.svg" alt="banner image" />
@@ -187,7 +189,7 @@
         <div class="bg-gray p-50 border border-rounded box-shadow w-1200 mt-40">
           <div class="flex justify-between align-center">
             <div>
-              <div  class="text_box">
+              <div  class="text_box ">
                 <h3 class=" grey hM mb-30">Let's make things happen</h3>
                    <p class="pL font-light">
                           Contact us today to learn more about how our digital
@@ -195,7 +197,9 @@
                           marketing services can help your business grow and 
                            succeed online.
                    </p>
-                 <button class="btn_primary">Get your free proposal</button>
+                 <button class="btn_primary">
+                  <h5 class="text">Get your free proposal</h5>
+                 </button>
 
               </div>
             
@@ -225,7 +229,7 @@
           </div>
         </div>
         
-        <div class="item with-border mt-40">
+        <div class="item with-border mt-40 mb-30">
           <p>For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.</p>
           <div class="learn-more">
             <p class="text-green">Learn more</p>
@@ -477,7 +481,9 @@
       </div>
 
       <div>
-        <button class="btn_primary mt-30 btn-right ">see all team</button>
+        <button class="btn_primary mt-30 btn-right ">
+          <h5 class="text">see all team</h5>
+        </button>
       </div>
 
       <div class="flex gap-40 align-center mt-100">
@@ -492,71 +498,39 @@
       <!-- new section -->
        <section class="container">
 
-        <!-- <div class="bg-gray p-50 border flex border-rounded box-shadow w-1100"> 
-
-          <div class="illustration">
-            <img src="./src/img/Illustration.png" alt="">
-          </div>
-          <div class="form-container">
-          <div >
-          <input type="radio">
-          <label for="text">Say Hi</label>
-        
-        
-         <input type="radio" >
-          <label for="text">Get a quote</label>
-        </div>
-      <div class="mt-20">
-          <label for="name">Name</label>
-        </div>
-          <input class="prs-info" type="text" name="Name" placeholder="Name">
-        
-        <div class="mt-20">
-          <label for="Email">Email*</label>
-        </div>
-          <input class="prs-info" type="email" name="Email" placeholder="Email" required>
-        
-        <div class="mt-20">
-          <label for="Message">Message*</label>
-       </div>
-       <div>
-        <input class="message" type="text">
-      </div>
-
-  <button class="btn-last mt-20">Send Message</button>
-      </div>
-    </div> -->
-  
+      
     <div class="bg-gray p-50 border border-rounded box-shadow w-1100">
       <div class="flex justify-between align-center ">
         <div>
           <div>
             <div  class="text_box ">
-              <input type="radio">
-              <label for="text">Say Hi</label>
+              
+              <input type="radio" checked>
+              <label for="text" >Say Hi</label>
             
             
-             <input type="radio" >
-              <label for="text">Get a quote</label>
+             <input type="radio"  >
+              <label for="text">Get a Quote</label>
             
-          <div class="mt-20">
+             <div class="mt-20">
               <label for="name">Name</label>
             </div>
-              <input class="prs-info" type="text" name="Name" placeholder="Name">
-            
-            <div class="mt-20">
-              <label for="Email">Email*</label>
+             <input class="prs-info" type="text" name="name" required placeholder="Name">
+
+          <div class="mt-20">
+              <label for="email">Email*</label>
             </div>
-              <input class="prs-info" type="email" name="Email" placeholder="Email" required>
+              <input class="prs-info" type="email" name="email" required placeholder="Email">
+            
             
             <div class="mt-20">
               <label for="Message">Message*</label>
            </div>
            <div>
-            <input class="message" type="text">
+            <Textarea placeholder="Message"  maxlength="200"></Textarea>
           </div>
     
-      <button class="btn-last mt-20">Send Message</button>
+      <button class="btn-last mt-20 ">Send Message</button>
           </div>
         </div>
           </div>
@@ -568,5 +542,39 @@
      
         
  </section>
+
+     <!-- new section -->
+
+     <!-- <section class="container">
+      <div class="content-box w-1200 mt-60">
+        <div>
+           <nav>
+             <div class="flex align-center  mt-40 "> 
+              <div>
+                <img src="./src/img/slogo.svg" alt="logo" />
+              </div>
+              <div class="flex align-center gap-40">
+                <ul class=" flex align-center gap-25">
+                  <li><a class="pxl inline " href="#">About us</a></li>
+                  <li><a class="pxl inline " href="#">Services</a></li>
+                  <li><a class="pxl inline " href="#">Use Cases</a></li>
+                  <li><a class="pxl inline " href="#">Pricing</a></li>
+                  <li><a class="pxl inline " href="#">Blog</a></li>
+                </ul>
+                
+                <img class="soc-icon" src="./src/img/linkd.svg" alt="">
+                <img  class="soc-icon" src="./src/img/facebook.svg" alt="">
+                <img class="soc-icon" src="./src/img/twitter.svg" alt="">
+              
+              </div>
+            </div>
+          </nav>
+        </div>
+
+      </div>
+     </section>  -->
+     
+     
+    
   </body>
 </html>

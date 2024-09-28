@@ -15,7 +15,9 @@ img {
 .flex {
   display: flex;
 }
-
+.inline{
+  display: inline;
+}
 .align-center {
   align-items: center;
 }
@@ -216,6 +218,7 @@ hr {
 
   border-left: 1px solid rgba(255, 255, 255, 0.3); 
   border-right: 1px solid rgba(255, 255, 255, 0.3); 
+  
 }
 .btm-border{
   border-bottom: 1px solid  rgba(255, 255, 255, 0.3);
@@ -230,28 +233,25 @@ hr {
   margin-right: 10px;
 }
 
-.icon {
-  width: 16px;
-  height: 16px;
+.soc-icon {
+  
+  width: 22px;
+  height: 22px;
 }
 .illustration{
   margin-left: 330px;
 }
-/* .fixed{
-  position: fixed;
-  background-color: white;
-  width: 1220px;
-  margin-left: 150px;
-  margin-top: 0;
-} */
+
 .fixed {
   position: fixed;
-  top: 0; 
-  left:0; 
+  width: 1220px;
+  top: 0;
+  left:150px;
   background-color: white;
-  width: 100%; 
+  /* width: 1220px;  */
   margin: 0; 
   padding: 0; 
   z-index: 1000; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
